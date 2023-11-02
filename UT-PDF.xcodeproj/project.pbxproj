@@ -13,6 +13,11 @@
 		0EF7D2EE2A1DE61900380FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF7D2EC2A1DE61900380FE8 /* Main.storyboard */; };
 		0EF7D2F02A1DE61B00380FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF7D2EF2A1DE61B00380FE8 /* Assets.xcassets */; };
 		0EF7D2F32A1DE61B00380FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF7D2F12A1DE61B00380FE8 /* LaunchScreen.storyboard */; };
+		0EF7D2FD2A1DE96900380FE8 /* swftui.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0EF7D2FC2A1DE96900380FE8 /* swftui.pdf */; };
+		0EF7D2FF2A1DF0FD00380FE8 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF7D2FE2A1DF0FD00380FE8 /* PDFViewController.swift */; };
+		0EF7D3022A2553E300380FE8 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 0EF7D3012A2553E300380FE8 /* FirebaseAppDistribution-Beta */; };
+		0EF7D3042A25549800380FE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EF7D3032A25549800380FE8 /* GoogleService-Info.plist */; };
+		4C53214B80D60F7277679D46 /* Pods_UT_PDF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB101FF45DB9BDEE857999D2 /* Pods_UT_PDF.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,12 @@
 		0EF7D2EF2A1DE61B00380FE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EF7D2F22A1DE61B00380FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EF7D2F42A1DE61B00380FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EF7D2FC2A1DE96900380FE8 /* swftui.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = swftui.pdf; path = ../../../../../Downloads/swftui.pdf; sourceTree = "<group>"; };
+		0EF7D2FE2A1DF0FD00380FE8 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		0EF7D3032A25549800380FE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		125E011FA7B8EFCE9D311DB8 /* Pods-UT-PDF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UT-PDF.release.xcconfig"; path = "Target Support Files/Pods-UT-PDF/Pods-UT-PDF.release.xcconfig"; sourceTree = "<group>"; };
+		BB101FF45DB9BDEE857999D2 /* Pods_UT_PDF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UT_PDF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA92BF41283CBFB121FFD09 /* Pods-UT-PDF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UT-PDF.debug.xcconfig"; path = "Target Support Files/Pods-UT-PDF/Pods-UT-PDF.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EF7D3022A2553E300380FE8 /* FirebaseAppDistribution-Beta in Frameworks */,
+				4C53214B80D60F7277679D46 /* Pods_UT_PDF.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				0EF7D2E52A1DE61900380FE8 /* UT-PDF */,
 				0EF7D2E42A1DE61900380FE8 /* Products */,
+				D2765B34E7473F393BDEB66D /* Pods */,
+				390AD66C1F61CECDF350DEAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +71,8 @@
 		0EF7D2E52A1DE61900380FE8 /* UT-PDF */ = {
 			isa = PBXGroup;
 			children = (
+				0EF7D3032A25549800380FE8 /* GoogleService-Info.plist */,
+				0EF7D2FC2A1DE96900380FE8 /* swftui.pdf */,
 				0EF7D2E62A1DE61900380FE8 /* AppDelegate.swift */,
 				0EF7D2E82A1DE61900380FE8 /* SceneDelegate.swift */,
 				0EF7D2EA2A1DE61900380FE8 /* ViewController.swift */,
@@ -63,8 +80,27 @@
 				0EF7D2EF2A1DE61B00380FE8 /* Assets.xcassets */,
 				0EF7D2F12A1DE61B00380FE8 /* LaunchScreen.storyboard */,
 				0EF7D2F42A1DE61B00380FE8 /* Info.plist */,
+				0EF7D2FE2A1DF0FD00380FE8 /* PDFViewController.swift */,
 			);
 			path = "UT-PDF";
+			sourceTree = "<group>";
+		};
+		390AD66C1F61CECDF350DEAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB101FF45DB9BDEE857999D2 /* Pods_UT_PDF.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2765B34E7473F393BDEB66D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDA92BF41283CBFB121FFD09 /* Pods-UT-PDF.debug.xcconfig */,
+				125E011FA7B8EFCE9D311DB8 /* Pods-UT-PDF.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +110,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EF7D2F72A1DE61B00380FE8 /* Build configuration list for PBXNativeTarget "UT-PDF" */;
 			buildPhases = (
+				2889262DA561C78F19E1CA36 /* [CP] Check Pods Manifest.lock */,
 				0EF7D2DF2A1DE61900380FE8 /* Sources */,
 				0EF7D2E02A1DE61900380FE8 /* Frameworks */,
 				0EF7D2E12A1DE61900380FE8 /* Resources */,
+				106126DFE5481BD4660BA729 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "UT-PDF";
+			packageProductDependencies = (
+				0EF7D3012A2553E300380FE8 /* FirebaseAppDistribution-Beta */,
+			);
 			productName = "UT-PDF";
 			productReference = 0EF7D2E32A1DE61900380FE8 /* UT-PDF.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +152,9 @@
 				Base,
 			);
 			mainGroup = 0EF7D2DA2A1DE61900380FE8;
+			packageReferences = (
+				0EF7D3002A2553E300380FE8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 0EF7D2E42A1DE61900380FE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,13 +169,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EF7D2FD2A1DE96900380FE8 /* swftui.pdf in Resources */,
 				0EF7D2F32A1DE61B00380FE8 /* LaunchScreen.storyboard in Resources */,
+				0EF7D3042A25549800380FE8 /* GoogleService-Info.plist in Resources */,
 				0EF7D2F02A1DE61B00380FE8 /* Assets.xcassets in Resources */,
 				0EF7D2EE2A1DE61900380FE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		106126DFE5481BD4660BA729 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UT-PDF/Pods-UT-PDF-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UT-PDF/Pods-UT-PDF-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UT-PDF/Pods-UT-PDF-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2889262DA561C78F19E1CA36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UT-PDF-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0EF7D2DF2A1DE61900380FE8 /* Sources */ = {
@@ -141,6 +229,7 @@
 				0EF7D2EB2A1DE61900380FE8 /* ViewController.swift in Sources */,
 				0EF7D2E72A1DE61900380FE8 /* AppDelegate.swift in Sources */,
 				0EF7D2E92A1DE61900380FE8 /* SceneDelegate.swift in Sources */,
+				0EF7D2FF2A1DF0FD00380FE8 /* PDFViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +371,7 @@
 		};
 		0EF7D2F82A1DE61B00380FE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDA92BF41283CBFB121FFD09 /* Pods-UT-PDF.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +385,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +401,7 @@
 		};
 		0EF7D2F92A1DE61B00380FE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 125E011FA7B8EFCE9D311DB8 /* Pods-UT-PDF.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +415,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +451,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0EF7D3002A2553E300380FE8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0EF7D3012A2553E300380FE8 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0EF7D3002A2553E300380FE8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0EF7D2DB2A1DE61900380FE8 /* Project object */;
 }
